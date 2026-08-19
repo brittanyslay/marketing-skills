@@ -20,14 +20,19 @@ Built by [Brittany Slay](https://brittanyslay.com). Free to use, copy, and share
 
 ## Use them in Claude Code
 
-Copy the skills you want into your skills directory:
+Clone the repo, then copy the skills you want into your skills directory:
 
 ```bash
-# project-level (this repo only)
-cp -r skills/* .claude/skills/
+git clone https://github.com/brittanyslay/marketing-skills.git
+cd marketing-skills
 
-# or user-level (available everywhere)
+# user-level (available in every project)
+mkdir -p ~/.claude/skills
 cp -r skills/* ~/.claude/skills/
+
+# or project-level (just this project)
+mkdir -p .claude/skills
+cp -r skills/* .claude/skills/
 ```
 
 Then invoke a skill by name, or just describe the task and let Claude pick it up. Each skill lives in `skills/<name>/SKILL.md` with YAML frontmatter, the standard Claude Code format.

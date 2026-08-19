@@ -1,6 +1,6 @@
 ---
 name: content-engine
-description: Stretch one real insight into a week of content without watering it down. Use when you have a genuine point of view and want to work it across channels in your own voice.
+description: Turn one real insight into a week of content (a LinkedIn post, a longer piece, replies, a visual) without watering it down. Use when repurposing a point of view into social posts, a content calendar, or a blog outline in your own voice.
 ---
 
 # One Idea Into a Content Engine
