@@ -1,6 +1,6 @@
 # AI Marketing Skills
 
-Seven small, sharp AI skills for the jobs a B2B marketing leader actually hands to a model every week: sharpen positioning, define an ICP, tear down a competitor, plan demand, write outreach worth replying to, turn one idea into a week of content, and strip the robot out of your copy.
+Eight small, sharp AI skills for the jobs a B2B marketing leader actually hands to a model every week: sharpen positioning, define an ICP, tear down a competitor, plan demand, write outreach worth replying to, turn one idea into a week of content, build a case study from a real win, and strip the robot out of your copy.
 
 > **Before:** In today's fast-paced digital landscape, our cutting-edge solution empowers teams to seamlessly unlock their full potential and drive unparalleled growth.
 >
@@ -26,6 +26,7 @@ Seven small, sharp AI skills for the jobs a B2B marketing leader actually hands 
 | `first-demand-plan` | A lean, opinionated first-90-days demand plan for a real budget and a small team. |
 | `cold-outreach` | A cold email a busy buyer would actually reply to, in two versions. |
 | `content-engine` | Stretches one real insight into a week of content without watering it down. |
+| `case-study-from-a-win` | Turns one real customer win into a credible case study, inventing no numbers or quotes. |
 
 ## Install
 
@@ -62,6 +63,8 @@ Plain-language ways to reach for these skills. Say the task and the right skill 
 - `write a cold email a CFO would actually reply to`
 - `turn this insight into a week of LinkedIn posts`
 - `stretch one idea into a post, a longer piece, and replies without watering it down`
+- `write a case study from this customer win without making up any numbers`
+- `turn this before-and-after result into a credible customer story`
 
 ## The one rule that runs through all of them
 
