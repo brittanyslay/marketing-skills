@@ -41,10 +41,20 @@ Then invoke a skill by name, or just describe the task and let Claude pick it up
 
 Open any `SKILL.md`, copy the body, and paste it into ChatGPT, Claude, Gemini, or a Custom GPT's instructions. They are model-agnostic. Swap the `[BRACKETED]` parts for your own details.
 
+## See it work
+
+`anti-robot-editor`, the most-used skill, takes copy that reeks of AI and makes it sound like a person wrote it:
+
+> **Before:** In today's fast-paced digital landscape, our cutting-edge solution empowers teams to seamlessly unlock their full potential and drive unparalleled growth.
+>
+> **After:** Your team already knows what's broken. This gets it fixed in a week, not a quarter, and shows you the number that moved.
+
+Same length, none of the tells: no "in today's landscape," no "seamlessly," no "unlock potential," no em dashes. Where a claim needs a real number, the skill flags it in `[brackets]` instead of inventing one.
+
 ## The one rule that runs through all of them
 
 Do not fake specificity. If a claim needs a real number, these skills flag it in `[brackets]` for you to fill in rather than inventing one. And no em dashes, anywhere.
 
 ---
 
-More free tools and the writing behind them: [brittanyslay.com](https://brittanyslay.com)
+Built by [Brittany Slay](https://brittanyslay.com), a B2B marketing leader who builds AI-native tools. More free Claude skills at [brittanyslay.com/skills](https://brittanyslay.com/skills). Building or fixing B2B marketing from zero? [Get in touch](https://brittanyslay.com/#contact).
