@@ -2,10 +2,6 @@
 
 Eight small, sharp AI skills for the jobs a B2B marketing leader actually hands to a model every week: sharpen positioning, define an ICP, tear down a competitor, plan demand, write outreach worth replying to, turn one idea into a week of content, build a case study from a real win, and strip the robot out of your copy.
 
-![Before and after of the anti-robot-editor skill: robotic AI copy full of tells like "leverage", "seamless", "unlock synergies" and an em dash on the left, rewritten into concrete human copy on the right](docs/anti-robot-editor.png)
-
-*The real before/after this skill produces, shown plainly - not a decorative mockup.*
-
 > **Before:** In today's fast-paced digital landscape, our cutting-edge solution empowers teams to seamlessly unlock their full potential and drive unparalleled growth.
 >
 > **After:** Your team already knows what's broken. This gets it fixed in a week, not a quarter, and shows you the number that moved.
