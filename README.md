@@ -8,6 +8,8 @@ Eight small, sharp AI skills for the jobs a B2B marketing leader actually hands 
 
 *`anti-robot-editor`, the most-used skill, on a line of real AI slop: same length, none of the tells.*
 
+![The anti-robot editor rewriting a paragraph of AI slop into specific, human copy: the slop phrases flagged, and slop, em dashes, and reading grade all dropping while concrete nouns climb.](docs/anti-robot-editor.jpg)
+
 ## What it does
 
 - Turns the weekly marketing jobs into repeatable prompts: positioning, ICP, competitive teardowns, demand plans, cold email, and content.
