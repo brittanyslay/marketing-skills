@@ -19,9 +19,14 @@ preserve the `Required Notice: Copyright Brittany Slay` line wherever these file
 
 Help define an ideal customer profile from evidence, not aspiration. The most common ICP mistake is describing who you wish you sold to; this skill describes who you actually win with.
 
-## Inputs you need
+## Intake
 
-Ask for 3-5 of the best current customers, and for each, one line on why they are great (fast to close, high retention, expand, refer, low support cost).
+Ask once for the raw material, then do the analysis yourself. Do not ask the writer to spot the patterns; that is your job.
+
+- Three to five of the best current customers.
+- For each, one line on why they are great (fast to close, high retention, expand, refer, low support cost).
+
+If you are handed a CSV, a CRM export, or a list pasted in, parse it directly and pull the accounts yourself. If fewer than three strong accounts exist, say the sample is too thin to generalize and name what one more data point would settle, rather than inventing a profile.
 
 ## What to produce
 
@@ -29,11 +34,26 @@ Ask for 3-5 of the best current customers, and for each, one line on why they ar
 2. **A one-paragraph ICP statement** in plain language.
 3. **A short "not a fit" list** so the team stops chasing leads that look interesting but never close.
 
+## Self-check before you hand it back
+
+- **Evidence trace:** every trait in the profile points back to a named account. If you cannot trace it, it is aspiration, not evidence. Cut it or mark it `[assumption]`.
+- **Discrimination test:** a good ICP excludes. If your profile would wave through most of your pipeline, it is too loose. Tighten until the "not a fit" list has real teeth.
+- **Specificity test:** no line survives that reads like a generic firmographic ("mid-market companies that value growth"). Specific or gone.
+- **Voice:** no em dashes, no filler, no invented numbers.
+
+Revise against this bar before returning.
+
 ## Rules
 
 - Only use patterns visible in the accounts provided. If you are extrapolating, label it `[assumption]` so a human can check it.
-- Do not pad the profile with generic firmographics ("mid-market companies that value growth"). Specific or nothing.
-- No em dashes, no filler.
+
+## Example
+
+Three best accounts: a 200-person fintech, a 350-person healthtech, a 180-person logistics SaaS. Common thread, actually visible: all bought within a quarter of a new VP of Ops joining, all had outgrown a spreadsheet-based process, all closed in under 30 days.
+
+ICP: "Series B to C operations-heavy software and regulated-industry companies, 150 to 400 people, within two quarters of hiring a VP of Operations, feeling the pain of a process that broke once they passed 150 staff."
+
+Not a fit: pre-Series-A (no budget, no ops leader yet), 1,000-plus (wants deep customization and a long procurement cycle), agencies (project-based, no recurring process pain).
 
 ---
 Author: Brittany Slay (https://brittanyslay.com). Licensed for noncommercial use only; see LICENSE.

@@ -19,10 +19,14 @@ preserve the `Required Notice: Copyright Brittany Slay` line wherever these file
 
 Take one real insight from the writer's work and turn it into a week of content that keeps the edge. The failure mode is dilution: five bland posts that each say a third of the original point. Do not do that.
 
-## Inputs you need
+## Intake
+
+Ask for two things, then write the whole week. Do not hand the writer an outline to finish.
 
 - The one real insight (the actual point of view, not a topic).
-- The writer's voice, described in a few words (for example: plain, senior, a little dry). If not given, ask.
+- The writer's voice, in a few words (plain, senior, a little dry). If not given, ask once, then default to plain and direct.
+
+If you are pointed at a longer piece, a transcript, or a talk and asked to mine it, read it and pull the single sharpest insight yourself, then confirm it in one line before building the week.
 
 ## What to produce
 
@@ -31,11 +35,20 @@ Take one real insight from the writer's work and turn it into a week of content 
 3. **Three thoughtful replies** the writer could leave on other people's posts to enter the conversation credibly.
 4. **One lightweight visual idea** (a simple chart, a before/after, a framing image), described so a non-designer could make it.
 
-## Rules
+## Self-check before you hand it back
 
-- Keep the writer's voice throughout. Match it, do not flatten it.
-- No cringe, no clichés, no em dashes, no forced rule-of-three.
-- Every piece must carry the actual insight. If a piece would only work by softening the point, cut it.
+- **Same-spine test:** state the one insight in a sentence. Every piece must carry that exact spine. If a piece drifts to an adjacent idea, pull it back or cut it.
+- **Un-softened test:** for each piece, ask whether it only works by hedging the point. If so, rewrite it to keep the edge or drop it. A soft piece is worse than one fewer piece.
+- **Voice-match test:** read each piece in the writer's described voice. Flatten and generic fails; cut the throat-clearing.
+- **Voice rules:** no cringe, no cliches, no em dashes, no forced rule-of-three. Run the pack's `anti-robot-editor` scanner on the posts if you have a shell.
+
+Revise against this bar before returning.
+
+## Example
+
+Insight: "Most B2B churn is decided in week one of onboarding, not at renewal."
+
+LinkedIn post opens with that line, then one specific story of an account that was lost on day three. Longer piece outlines the five week-one signals that predict churn. Three replies drop the week-one point into other people's renewal-focused threads. Visual: a simple timeline showing the churn decision landing in week one while the team is still watching the renewal date months later.
 
 ---
 Author: Brittany Slay (https://brittanyslay.com). Licensed for noncommercial use only; see LICENSE.
