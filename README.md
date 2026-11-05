@@ -13,6 +13,8 @@ Eight small, sharp AI skills for the jobs a B2B marketing leader actually hands 
 ## What it does
 
 - Turns the weekly marketing jobs into repeatable prompts: positioning, ICP, competitive teardowns, demand plans, cold email, and content.
+- Does the work, so you stay the manager. Each skill asks the few things it needs, then proceeds; you never hand-write the prompt or assemble the inputs.
+- Checks its own work. Every skill runs an internal critique loop against a stated bar before it hands anything back. The anti-robot editor ships a scanner (`skills/anti-robot-editor/scan.py`) that scores copy for AI tells, so that check is measurable, not a matter of taste.
 - Strips AI tells out of any copy so it reads like a specific human, not a model.
 - Refuses to fake specificity. Where a claim needs a real number, the skill flags it in `[brackets]` instead of inventing one, and it never uses em dashes.
 - Works anywhere. Each skill is plain instructions, so it runs as a Claude Code skill, a Custom GPT, a system prompt, or a pasted prompt in any model.
@@ -50,6 +52,18 @@ cp -r skills/* .claude/skills/
 Then invoke a skill by name, or just describe the task and let Claude pick it up. Each skill lives in `skills/<name>/SKILL.md` with YAML frontmatter, the standard Claude Code format.
 
 To use them anywhere else, open any `SKILL.md`, copy the body, and paste it into ChatGPT, Claude, Gemini, or a Custom GPT's instructions. They are model-agnostic. Swap the `[BRACKETED]` parts for your own details.
+
+### The copy scanner
+
+The anti-robot editor comes with a small scanner so its quality check is objective. It reads a file or stdin and reports em and en dashes, banned words and phrases, negation-pivot cadences, and sentence-length spread, exiting non-zero while any hard tell remains:
+
+```bash
+python3 skills/anti-robot-editor/scan.py draft.txt
+cat draft.txt | python3 skills/anti-robot-editor/scan.py
+python3 skills/anti-robot-editor/scan.py --selftest   # run the built-in tests
+```
+
+Standard library only, no install. The skill runs it in a loop: rewrite, scan, fix what it flags, scan again, until the copy reads `CLEAN`.
 
 ## Example prompts
 
